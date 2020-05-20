@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+    font-family: "Montserrat";
+}
+#primeraCaja{
+    background-color: white;
+    border-left: 3px solid green;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2)
+}
+#SegundaCaja{
+    background-color: white;
+    border-left: 3px solid red;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2)
+}
+#TerceraCaja{
+    background-color: white;
+    border-left: 3px solid blue;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2)
+}
+div{
+    height: 80px;
+    width: 150px;
+    margin: auto;
+}
+div:hover{
+    transform: scale(1.1, 1.1);
+    color:peru;
+    cursor: pointer;
+}
+div p{
+    margin-top: 25px;
+    text-align: center;
+    padding: 27px;
+    font-size: 13px;
+}
